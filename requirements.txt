@@ -1,0 +1,12 @@
+streamlit
+speechrecognition
+pyaudio
+transformers
+torch
+pillow
+python-dotenv
+langchain
+langgraph
+huggingface_hub
+langchain-community
+
