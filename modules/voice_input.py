@@ -1,6 +1,6 @@
 import speech_recognition as sr
 
-def transcribe_voice():
+def voice_input():
     recognizer = sr.Recognizer()
 
     with sr.Microphone() as source:
