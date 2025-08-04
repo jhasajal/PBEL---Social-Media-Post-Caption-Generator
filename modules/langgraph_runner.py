@@ -1,4 +1,5 @@
 import os
+__all__ = ["generate_caption"]
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
 from langchain_core.runnables import RunnableLambda
