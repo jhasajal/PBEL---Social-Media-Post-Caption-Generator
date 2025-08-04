@@ -10,4 +10,5 @@ dependencies = [
     "langchain-mistralai>=0.2.11",
     "mistralai>=1.9.3",
     "speechrecognition>=3.14.3",
+    "streamlit>=1.47.1",
 ]
