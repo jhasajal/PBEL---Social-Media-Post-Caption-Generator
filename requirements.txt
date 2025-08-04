@@ -9,10 +9,3 @@ langchain
 langgraph
 huggingface_hub
 langchain-community
-build-essential
-portaudio19-dev
-libportaudio2
-python3-dev
-libasound2-dev
-SpeechRecognition
-
