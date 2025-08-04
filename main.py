@@ -6,8 +6,8 @@ from modules.langgraph_runner import generate_caption
 import datetime
 
 import os
-os.system("uv pip install streamlit SpeechRecognition pyaudio transformers torch pillow python-dotenv langchain langgraph huggingface_hub langchain-community")
-
+os.system("uv add streamlit SpeechRecognition pyaudio transformers torch pillow python-dotenv langchain langgraph huggingface_hub langchain-community")
+os.system("uv add langgraph --frozen")  # Ensure voice input works
 # History storage file
 HISTORY_FILE = "history.txt"
 
