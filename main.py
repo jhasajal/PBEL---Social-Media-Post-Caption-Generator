@@ -6,8 +6,8 @@ from modules.langgraph_runner import generate_caption
 import datetime
 
 import os
-os.system("uv pip install SpeechRecognition")
-os.system("uv pip install transformers")
+os.system("uv pip install SpeechRecognition transformers")
+
 
 # History storage file
 HISTORY_FILE = "history.txt"
