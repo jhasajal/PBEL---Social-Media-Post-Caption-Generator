@@ -3,8 +3,11 @@ from modules.voice_input import transcribe_voice
 from modules.image_caption import caption_from_image
 from modules.prompt_builder import build_prompt
 from modules.langgraph_runner import generate_caption
-import os
 import datetime
+
+import os
+os.system("uv pip install SpeechRecognition")
+
 
 # History storage file
 HISTORY_FILE = "history.txt"

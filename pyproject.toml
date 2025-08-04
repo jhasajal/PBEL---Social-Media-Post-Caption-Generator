@@ -9,4 +9,5 @@ dependencies = [
     "langchain-community>=0.3.27",
     "langchain-mistralai>=0.2.11",
     "mistralai>=1.9.3",
+    "speechrecognition>=3.14.3",
 ]
