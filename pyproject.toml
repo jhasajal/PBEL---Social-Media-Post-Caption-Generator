@@ -11,5 +11,6 @@ dependencies = [
     "mistralai>=1.9.3",
     "speechrecognition>=3.14.3",
     "streamlit>=1.47.1",
+    "torch>=2.7.1",
     "transformers>=4.54.1",
 ]
