@@ -7,7 +7,7 @@ import datetime
 
 import os
 os.system("uv pip install SpeechRecognition")
-
+os.system("uv pip install transformers")
 
 # History storage file
 HISTORY_FILE = "history.txt"
